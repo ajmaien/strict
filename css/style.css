@@ -1,0 +1,391 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: font-family: 'Lato', ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+
+/********************************************************
+          *******Header-section code start********
+ *******************************************************/
+.navbar-light .navbar-nav .active > .nav-link{
+	color:#2D3950;
+	font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:rgb(0,0,0,.5);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#15A4FA;
+}
+/********************************************************
+          *******Header-section code end********
+ *******************************************************/
+
+
+/********************************************************
+          *******Banner-section code start********
+ *******************************************************/
+
+.banner-section{
+	width: 100%;
+	padding: 80px 0px;
+	float: left;
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+}
+.banner-inner{
+	width: 100%;
+	float: left;
+	padding: 220px 0px;
+
+}
+.banner-inner h1{
+   font-size: 85px;
+   line-height: 100px;
+   margin-bottom: 15px;
+   color:#FFF;
+   font-weight: 700;
+}
+.banner-inner .divider{
+	width: 48%;
+	margin: 0px auto 20px;
+	height: 2px;
+	background: #15a4fa;
+
+}
+.banner-inner p{
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 400;
+   color: #FFF;
+   margin-bottom:60px;
+}
+.banner-inner .btn{
+   padding: 12px 35px;
+   border: 1px solid#15a4fa;
+   background:transparent;
+   color:#FFF;
+   font-size: 18px;
+   font-weight: 500;
+
+}
+.banner-inner .btn:hover{
+	border: 1px solid#15a4fa;
+    background:#15a4fa;
+    color:#FFF;
+    transition: 1s;
+}
+.arrow{
+	width: 100%;
+	float: left;
+	padding top:30px;
+	position: relative; 
+}
+.arrow img{
+    position: absolute;
+    left: 49.5%;
+    bottom: -180px;
+}
+
+/********************************************************
+          *******Banner-section code end********
+ *******************************************************/
+
+
+
+/********************************************************
+          *******Typo-section code start********
+ *******************************************************/
+.typo-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+	text-align: center;
+}
+.typo-section h1{
+   font-size:45px;
+   line-height:55px;
+   margin-bottom: 15px;
+   color:#2d3950;
+   font-weight: 400;
+ }
+.typo-section p{
+   font-size: 14px;
+   line-height: 24px;
+   font-weight:400px;
+   color: #999999;
+   margin-bottom:60px;
+}
+
+/********************************************************
+          *******Typo-section code end********
+ *******************************************************/
+
+
+/********************************************************
+          *******Featured-section code start********
+ *******************************************************/
+.featured-section{
+   width: 100%;
+   float: left;
+   padding: 80px 0px;
+   text-align: center;
+}
+.featured-inner{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	text-align: center;
+}
+.featured-inner img{
+	margin-bottom: 20px;
+}
+.featured-inner h4{
+   font-size:18px;
+   line-height:30px;
+   margin-bottom: 15px;
+   color:#2d3950;
+   font-weight: 700;
+}
+.featured-inner p{
+   font-size:14px;
+   line-height:24px;
+   margin-bottom: 15px;
+   color:#999999;
+   font-weight: 400;
+}
+
+ /********************************************************
+          *******Featured-section code end********
+ *******************************************************/
+
+
+ /********************************************************
+          *******Content-section code start********
+ *******************************************************/
+ .content-section{
+	width: 100%;
+	float: left;
+	padding:20px 0px;
+	background: #f6f9f9;
+	text-align:center;
+}
+.content-section h1{
+   font-size:45px;
+   line-height:55px;
+   margin-bottom: 15px;
+   color:#2d3950;
+   font-weight: 400;
+ }
+.content-section p{
+   font-size: 14px;
+   line-height: 24px;
+   font-weight:400px;
+   color: #999999;
+   margin-bottom:10px;
+}
+  /********************************************************
+          *******Content-section code start********
+ *******************************************************/
+
+
+  /********************************************************
+          *******Portfolio-section code start********
+ *******************************************************/
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+	position: relative;
+}
+.portfolio-inner{
+	width: 100%;
+	position: relative;
+}
+
+.portfolio-inner .port-inner {
+    width:95%;
+    height: 98%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(21,164,250, .8 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+
+}
+.portfolio-inner:hover .port-inner{
+	display: block;
+	transition: 1s;
+	width:360px;
+	height: 260px;
+}
+.port-inner ul{
+	position: absolute;
+	top: 40%;
+	left:35%;
+}
+.port-inner ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.port-inner ul li a{
+	margin:0px 5px; 
+}
+.port-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size:22px;
+}
+.mar{
+	margin-top:17px;
+}
+
+  /********************************************************
+          *******Portfolio-section code end********
+ *******************************************************/
+
+
+
+  /********************************************************
+          *******Stay-section code start********
+ *******************************************************/
+
+.stay-section{
+	width: 100%;
+	padding: 80px 0px;
+	float: left;
+	background: url(../images/stay.png) center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.stay-section h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+}
+.stay-section p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #a7a8a8;
+    font-weight: normal;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.contact-inner{
+	color: #fff;
+}
+.form-group{
+	width:100%;
+}
+.form-control{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	background: transparent;
+	border: 1px solid #999;
+	border-radius: 3px;
+	color: #999999;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+	margin: 10px 0px;
+}
+.contact-inner .btn{
+
+	padding: 10px 40px;
+	background: transparent;
+	color: #fff;
+	border:1px solid #15a4fa;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.contact-inner .btn:hover{
+	border:1px solid #15a4fa;
+	border-radius: 5px;
+	font-size: 16px;
+	background: #08c;
+	transition: 1s;
+}
+
+
+
+  /********************************************************
+          *******Stay-section code end********
+ *******************************************************/
+
+ /********************************************************
+          *******footer-section code start********
+ *******************************************************/
+
+ .footer-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 15px 0px;
+}
+.footer-section p {
+    font-size: 12px;
+    color: #999999;
+    margin-top: 15px;
+}
+.social-icons{
+	width: 100%;
+	text-align: right;
+}
+
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons ul li a{
+	text-align: center;
+
+}
+.social-icons ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 0px;
+	background: #15A4FA;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	font-size: 22px;
+}
+.social-icons ul li a i:hover{
+	background: transparent;
+	border: 1px solid #15A4FA;
+	color: #15A4FA;
+	transition: 1s;
+}
+ /********************************************************
+          *******footer-section code end********
+ *******************************************************/
